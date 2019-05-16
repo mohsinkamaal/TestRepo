@@ -8,7 +8,7 @@ namespace TwitterCloneMVCUI.Models
     public class LoginViewModel
     {
         [Required]
-        [StringLength(25)]
+        [StringLength(10)]
         public string UserID { get; set; }
 
         [Required]
