@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0585c74c-a56f-492b-8372-962a3a218807" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:64380/supliermanager.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="supliermanager.xsd" MetadataType="Schema" ID="5ffef983-be69-4d8f-ba4c-fbccfd7fd22d" SourceId="1" SourceUrl="http://localhost:64380/supliermanager.svc?xsd=xsd2" />
+    <MetadataFile FileName="supliermanager.disco" MetadataType="Disco" ID="36a59c0d-d1bc-4d73-a067-aba7815883ad" SourceId="1" SourceUrl="http://localhost:64380/supliermanager.svc?disco" />
+    <MetadataFile FileName="supliermanager1.xsd" MetadataType="Schema" ID="cef4dfb7-b863-4853-8be6-b2c7c619e5c5" SourceId="1" SourceUrl="http://localhost:64380/supliermanager.svc?xsd=xsd0" />
+    <MetadataFile FileName="supliermanager2.xsd" MetadataType="Schema" ID="9543eb85-0004-4e29-9e5d-590c71c447ba" SourceId="1" SourceUrl="http://localhost:64380/supliermanager.svc?xsd=xsd1" />
+    <MetadataFile FileName="supliermanager.wsdl" MetadataType="Wsdl" ID="167f286e-9299-42d8-ad18-9a23fc55d365" SourceId="1" SourceUrl="http://localhost:64380/supliermanager.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
